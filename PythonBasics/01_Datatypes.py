@@ -1,12 +1,6 @@
 #######################################
 #   Python Data Types 
-# 1. Everything is object
-# 2. Do not specify variable type. Variable types are inferred at run time
-# 3. Allowed chars variable name
-#       lower and upper case chars
-#       digits (variable name cannot start with digits)
-#       underscore (variable name can start with underscore)
-# 4. Variable names are case sensitive
+# 1. Everything in python is an object derived from class
 #
 # Basic Data types: int, float, bool
 # Sequence Type: list, tuple, range, string (str)
@@ -67,48 +61,34 @@ print("*****************************************************")
 ########### Sequence Types ##########
 varList = [1, 2, 3]
 
+print("varList: ", varList)
+print("Type of varList: ", type(varList)) #to check data type of any variable
+
 varTuple = (1, 2, 3)
 
+print("varTuple: ", varTuple)
+print("Type of varTuple: ", type(varTuple)) #to check data type of any variable
+
 varRange = range(0, 10)
+
+print("varRange: ", varRange) #we usually do not use range this way. It is used for iteration
+print("Type of varRange: ", type(varRange)) #to check data type of any variable
 
 ########### Set Types ##########
 
 varSet = { 1, 2, 3}
 
-varFrozenset = { [1, 2, 3] }
+print("varSet: ", varSet)
+print("Type of varSet: ", type(varSet)) #to check data type of any variable
+
+varFrozenset =  frozenset([1, 2, 3])
+
+print("varFrozenset: ", varFrozenset)
+print("Type of varFrozenset: ", type(varFrozenset)) #to check data type of any variable
 
 ########### Mapping Types ##########
 
-varDictionary = { key1: "value1", key2: "value2"}
+varDictionary = { 'key1': "value1", 'key2': "value2"}
 
-########### Get Input from user #######
-
-#Input as string
-user_name = input("Your Name: ")
-print("Hello ", user_name) #one way to print variable which we have already seen
-print("Hello " + user_name) #another way to print variable which we have already seen
-print(f"Hello {user_name}") # This is coolest way of all - also called as f-string or formatted strings. 
-                            #don't forget to add 'f' in front of string
-
-print("*****************************************************")
-
-#Getting input other than string
-user_height = float(input("Enter your height (m): ")) #Data type of input is always string
-
-ideal_weight = 25 * (user_height ** 2)
-
-print(f" Hello {user_name}, your age is {str(user_height)} and your ideal weight is {str(ideal_weight)} kg")
-
-print("*****************************************************")
-
-########### CHanging value types of variable #######
-
-#As value of variable changes, so does type
-original  = 10 # int type
-print("Original:", original)
-print("Original Type: ", type(original))
-
-original = "Ten" # str type
-print("Changed Variable: ", original)
-print("Changed Type: ", type(original))
-
+print("varDictionary: ", varDictionary)
+print("Type of varDictionary: ", type(varDictionary)) #to check data type of any variable
