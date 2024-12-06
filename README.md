@@ -2,15 +2,17 @@
 
 ## Python Basics
 
-1. Basic Datatypes, Type Conversion and Inputs
-2. Operators & Conditional Statements
-3. String Manipulation
-4. List, tuple, range
-5. Dictionary
-6. Set, frozen sets
-7. Loops and Range
-8. Functions
-9. Exceptions
-10. Classes
-11. Modules and Packages
+1. Python Common Concepts
+2. Data types
+3. Inputs
+4. Variables
+5. Operators and conditional statements
+6. String
+7. Lists and Tuples
+8. Sets and Dictionaries
+9. Loops
+10. Functions
+11. Exceptions
+12. Classes
+13. Modules and packages
 
