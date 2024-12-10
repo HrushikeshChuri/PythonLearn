@@ -6,7 +6,7 @@
 #       digits (variable name cannot start with digits)
 #       underscore (variable name can start with underscore)
 # 3. Variable names are case sensitive
-#
+# 4. is and is not operators
 #######################################
 
 ########### Changing value type of variable in single snippet of code #######
@@ -22,3 +22,11 @@ print("Changed Type: ", type(original))
 
 
 #Reference, Unique id
+
+a = 10
+b = a
+
+print("a : ", a)
+print("b : ", b)
+
+print("a is b: ", a is b)

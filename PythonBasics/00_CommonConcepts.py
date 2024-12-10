@@ -3,4 +3,16 @@
 #	Multiple expressions per line
 #	Line conti
 #	Grouping staments
-#	Comments
+
+
+#	Comments   *******************************************************************
+
+# Single line comment
+
+# This is a - 
+# Multiline comment
+
+"""
+    This is also a multiline
+    comment
+"""
