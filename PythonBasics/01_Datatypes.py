@@ -32,21 +32,11 @@ print("Type of varFloat: ", type(varFloat)) #to check data type of any variable
 print("*****************************************************")
 
 #string
-varStringDoubleQuotes = "This is 'string'"
-varStringSingleQuotes = 'This is also "string"'
-varStringThreeQuotes = """This is also 'another' way to define \"string\""""
-varStringMultiline = """
-This is multi line string.
-Very useful to increase readability.
-Also can be used while defining email message body
-"""
+varStringDoubleQuotes = "This is string"
 
-print("varStringSingleQuotes: ", varStringSingleQuotes)
 print("varStringDoubleQuotes: ", varStringDoubleQuotes)
-print("varStringThreeQuotes: ", varStringThreeQuotes)
-print("varStringMultiline: ", varStringMultiline)
 
-print("Type of varStringSingleQuotes: ", type(varStringSingleQuotes)) #to check data type of any variable
+print("Type of varStringDoubleQuotes: ", type(varStringDoubleQuotes)) #to check data type of any variable
 
 print("*****************************************************")
 
