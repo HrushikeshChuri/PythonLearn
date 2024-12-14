@@ -2,19 +2,28 @@
 # List and Tuples
 #######################################
 
-#   list with different data types
-#   Accessing list items
-#   Looping and list comprehention  
-#   Add/remove/change list items
-#   other list methods (len/count, sort/reverse, copy/append/extend, clear/pop/remove, index/insert)
+'''
+Common operations realted to sequence:
+    1. Access single or multiple items from sequence
+    2. Traverse through sequence
+    3. Check if item is in sequence or not
+    4. Manipulating Sequence - Add/Modify/Remove item
+    5. Sequence type specific operations (like tuple unpacking)
 
-# 1. List with different data types
+'''
+
+print("*# 1. List with different data types")
+
 sampleList = [True, "string1", 3, 4.56]
 
 print(sampleList)
 print(type(sampleList))
 
-# 2. Accessing list items
+print("")
+print("*********************************************************")
+print("")
+
+print("*# 2. Accessing single or multiple list items")
 
 print(sampleList[0])
 print(sampleList[1])
@@ -28,22 +37,36 @@ for item in sampleList:
 for index in range(len(sampleList)):
     print(f"{sampleList[index]} has index {index}")
 
-#list comprehension
+print("")
+print("*********************************************************")
+print("")
+
+print("*# 3. Check if item is present in list or not")
+
+print(3 in sampleList) # check if element is in the list
+print(True not in sampleList) # check if element is in list
+
+print("")
+print("*********************************************************")
+print("")
+
+print("*# 4. List comprehension")
 
 numberList = list(range(1,21))  #list of number from 0 to 20
+
 print (numberList)
 
 evenNumberList = [x for x in numberList if x % 2 == 0] 
 
 print(evenNumberList)
 
+print("")
+print("*********************************************************")
+print("")
 
+print("*# 5. Manipulating List - Add/Modify Existing Item")
 
-#Manipulating List
 sampleList = [True, "string1", 3, 4.56]
-
-# Add/Modify item(s)
-## modify existing item
 
 sampleList[1] = 99
 sampleList[2] = "new item"
@@ -58,7 +81,7 @@ print(sampleList)
 sampleList.insert(3, "inserted")
 print(sampleList)
 
-## Copying to nother list or appending list
+## Copying to another list or appending list
 
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
@@ -78,7 +101,11 @@ print(list3)
 list3.sort()
 print(list3)
 
-#   other list methods (len/count)
+print("")
+print("*********************************************************")
+print("")
+
+print("*# 6. Remove items")
 
 # Remove items(s)
 list3.pop()
@@ -88,16 +115,24 @@ print(list3)
 list3.clear()
 print(list3)
 
+print("")
+print("*********************************************************")
+print("")
 
+print("*# 7. Other list methods (len/count)")
 
 list1 = [1, 2, 3, 3 ,4 ,5 ,4, 4]
 print(list1.count(4))
 print(len(list1))
 
-#tuple
+print("")
+print("*********************************************************")
+print("")
 
-#tuple is immutable. Cannot modify items in tuple
-# accessing tuple elements is same as list
+print("*# 7. Tuple")
+
+###  Tuple is immutable. Cannot modify items in tuple
+# Accessing tuple elements is same as list
 
 sampleTuple = (1, 2, "string", 4.5, 5)
 
@@ -106,7 +141,13 @@ for item in sampleTuple:
 
 print(sampleTuple[1])
 
-#update tuple -- convert tuple to list --> update list and then convert to tuple
+print("")
+print("*********************************************************")
+print("")
+
+print("*# 7.a. Update tuple")
+
+#Convert tuple to new list --> update the new list --> Convert new list to tuple
 
 newList = list(sampleTuple)
 newList.append("new item")
@@ -115,9 +156,12 @@ sampleTuple = tuple(newList)
 
 print(sampleTuple)
 
-#tuple unpacking
+print("")
+print("*********************************************************")
+print("")
+
+print("*# 7.b. Tuple Unpacking")
+
 sampleTuple = ("1", "2", "3")
-
 x, y, z = sampleTuple
-
 print(f"X: {x}, Y: {y}, Z: {z}")
