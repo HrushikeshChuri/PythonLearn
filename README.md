@@ -69,6 +69,4 @@ Common operations related to sequence type like list, tuple etc..:
     - Object methods
     - Inheritance
     - Polymorphism
-12. Dates in Python
-13. File Handling
 14. Modules and Packages
