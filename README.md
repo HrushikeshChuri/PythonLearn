@@ -44,6 +44,16 @@ Common operations related to sequence type like list, tuple etc..:
 7. Lists and Tuples
 8. Sets and Dictionaries
 9. Functions
+    - Defining/creating and calling functions
+    - Global vs local variables
+        - Parameters
+        - Adding parameters in functions and passing them as arguments in function call
+        - Default parameter value
+        - List as a parameter
+    - Returning value from function
+    - Pass
+    - Recursion
+    - Lambda functions
 10. Exceptions
 11. Classes
 12. Modules and packages
