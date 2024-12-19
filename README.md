@@ -42,7 +42,9 @@ Common operations related to sequence type like list, tuple etc..:
     5. Type specific operations (Any operation only specific to certain type of sequence e.g. tuple unpacking)
 
 7. Lists and Tuples
+    - Check common operations list
 8. Sets and Dictionaries
+    - Check common operations list
 9. Functions
     - Defining/creating and calling functions
     - Global vs local variables
@@ -55,6 +57,18 @@ Common operations related to sequence type like list, tuple etc..:
     - Recursion
     - Lambda functions
 10. Exceptions
+    - Try...Except
+    - Multiple exceptions
+    - Else
+    - Finally
+    - Raising exceptions
 11. Classes
-12. Modules and packages
-
+    - Create class and object
+    - __init__() function
+    - Self paramters
+    - Object methods
+    - Inheritance
+    - Polymorphism
+12. Dates in Python
+13. File Handling
+14. Modules and Packages
